@@ -1,4 +1,4 @@
-package com.demmoapp
+package com.alan.imode
 
 import android.app.Application
 import com.facebook.react.PackageList
