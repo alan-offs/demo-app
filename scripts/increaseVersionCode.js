@@ -2,7 +2,10 @@ const {google} = require('googleapis');
 const {JWT} = require('google-auth-library');
 const fs = require('fs');
 const path = require('path');
-const serviceAccount = require('./d2-autobuild-706cddedf98f.json');
+const serviceAccount = require(path.resolve(
+  __dirname,
+  'd2-autobuild-706cddedf98f.json',
+));
 
 const PACKAGE_NAME = 'com.alan.imode';
 const BUILD_GRADLE_FILE = path.join(
