@@ -238,3 +238,8 @@ trigger_map:
   type: push
   workflow: Deploy-IOS
 ```
+
+## 5. Releases > Release Management
+[Getting started with Release Management](https://devcenter.bitrise.io/en/release-management/getting-started-with-release-management.html)
+- Connect Android & IOS apps
+- Add new Release
